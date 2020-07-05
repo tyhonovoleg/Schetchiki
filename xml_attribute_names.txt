@@ -1,0 +1,39 @@
+{
+    19450: { # теплосчетчик
+        radio_ident: :O0,  # номер радиомодуля
+        article:     :O1,  # артикул
+        radio_net:   :O2,  # радиосеть
+        bill_date:   :O3,  # дата архивации показаний
+        entrance:    :O4,  # подъезд
+        mount_place: :O5,  # место установки
+        apartment:   :O6,  # квартира
+        consumption: :O7,  # показания
+        meter_ident: :O9,  # номер теплосчетчика
+    },
+    19320: { # водосчетчик
+        radio_ident: :W0,  # номер радиомодуля
+        article:     :W1,  # артикул
+        radio_net:   :W2,  # радиосеть
+        bill_date:   :W3,  # дата архивации показаний
+        entrance:    :W4,  # подъезд
+        mount_place: :W5,  # место установки
+        apartment:   :W6,  # квартира
+        consumption: :W7,  # показкания
+        meter_type:  :W8,  # тип прибора - kalt (ХВС) / warm (ГВС)
+        impulse:     :W9,  # вес импульса для прибора пульсоник (не используется)
+        meter_ident: :W10, # номер водосчетчика
+    },
+    11490: { # распределитель
+        radio_ident: :H0,  # номер распределителя
+        article:     :H1,  # артикул
+        radio_net:   :H2,  # радиосеть
+        bill_date:   :H3,  # дата архивации показаний
+        entrance:    :H4,  # подъезд
+        mount_place: :H5,  # место установки
+        apartment:   :H6,  # квартира
+        date:        :H7,  # дата монтажа
+        meter_type:  :H8,  # тип прибора - Einheitsskale
+        temperature: :H9,  # температура
+        condition:   :H10, # тип учета (H1 / H2)
+    }
+}
